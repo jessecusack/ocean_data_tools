@@ -1,8 +1,12 @@
 # Ocean Data Tools
 
+A directory of software tools used for reading, processing and analysing data from oceanographic sensors.
+
 # By tool:
 
 ## Software for reading and processing RAW data
+
+In no particular order!
 
 | Package | Main devs | Language | Open-source | Actively developed? | Notes | 
 |---------|-----------|----------|-------------|---------------------|-------|
