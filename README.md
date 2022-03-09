@@ -22,6 +22,7 @@ In no particular order!
 | [RDDTX](https://www.eoas.ubc.ca/~rich/#RDDTX) | Rich Pawlowicz  | MATLAB | no | unknown | Reading/processing single beam echosounder in .dt4 format |
 | [CTD_RD](https://www.eoas.ubc.ca/~rich/#CTD) | Rich Pawlowicz  | MATLAB | no | unknown | Reading/processing Seabird CTD data in .cnv format |
 | [EPSILOMETER](https://github.com/modscripps/EPSILOMETER) | Arnaud Le Boyer & Nicole Couto | MATLAB | yes | yes | Reading/processing epsilometer data |
+| [mixingsoftware](https://github.com/OceanMixingGroup/mixingsoftware) | Ocean Mixing Group (OSU) | MATLAB | yes | maybe | A very large repository of code for reading and analysing data | 
 
 ## Software for analysing processed data
 
@@ -45,13 +46,13 @@ In no particular order!
 | Teledyne RDI Long Ranger | | standard deep mooring ADCP | 
 | Teledyne RDI Sentinel V | oce | 5 beam ADCP | 
 | Nortek Signature | ocean-tools? | |
-| Nortek ADV | oce?/dolfyn? | | 
+| Nortek ADV | oce? dolfyn? | | 
 
 ## CTDs
 
 | Instrument  | Software    | Notes  |
 |-------------|-------------|--------|
-| Seabird SBE 9/11 | oce, ctdproc | Typical UNOLS ship CTD system |
+| Seabird SBE 9/11 | oce, ctdproc, mixingsoftware | Typical UNOLS ship CTD system |
 | Seabird SBE56 | oce, sbemoored | Common mooring/chain instrument measures T |
 | Seabird SBE37 | oce, sbemoored | Common mooring instrument measures P, T, C |
 | RBR solo | oce, RSKtools | Common mooring/chain instrument measures T |
@@ -64,10 +65,11 @@ In no particular order!
 |-------------|-------------|--------|
 | Rockland VMP | ODAS |  |
 | Epsilomiter (MOD Scripps) | EPSILOMETER | |
+| Chipod | mixingsoftware | |
 
 ## Echosounders & Multibeam
 | Instrument  | Software    | Notes  |
 |-------------|-------------|--------|
-| BIOSONICS DTX digital echosounder  | RDDTX |  |
+| BIOSONICS DTX digital echosounder  | RDDTX, mixingsoftware |  |
 
 # Other sensors
