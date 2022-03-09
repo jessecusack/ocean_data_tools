@@ -62,7 +62,7 @@ In no particular order!
 
 | Instrument  | Software    | Notes  |
 |-------------|-------------|--------|
-| Rockland VMP | odas |  |
+| Rockland VMP | ODAS |  |
 | Epsilomiter (MOD Scripps) | EPSILOMETER | |
 
 ## Echosounders & Multibeam
