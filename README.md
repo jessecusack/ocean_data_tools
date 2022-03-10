@@ -1,10 +1,20 @@
 # Ocean Data Tools
 
-A directory of software tools used for reading, processing and analysing data from oceanographic sensors.
+A directory of software used for reading, processing and analysing data from oceanographic sensors.
 
-# By tool:
+### Contents
+* [Software list](#software)
+  * [For raw data processing](#software-for-reading-and-processing-raw-data)
+  * [For analysing data](#software-for-analysing-processed-data)
+* [Instruments list](#instruments)
+  * [Acoustic velocity instruments](#acoustic-velocity-instruments)
+  * [CTDs](#ctds)
+  * [Microstructure instruments](#microstructure-instruments)
+  * [Echosounders and multibeams](#echosounders-and-multibeams)
 
-## Software for reading and processing RAW data
+# Software
+
+## Software for reading and processing raw data
 
 In no particular order!
 
@@ -35,8 +45,9 @@ In no particular order!
 | [Standard Mixing Routines](https://github.com/OceanMixingCommunity/Standard-Mixing-Routines) | Many contributors | MATLAB | yes | no | A huge dump of code for estimating turbulence parameters from data | 
 | [UTide](https://www.mathworks.com/matlabcentral/fileexchange/46523-utide-unified-tidal-analysis-and-prediction-functions) | Daniel Codiga | MATLAB | no | no | Tidal harmonic analysis |
 | [UTide](https://github.com/wesleybowman/UTide) | Wesley Bowman  | Python | yes | yes | Tidal harmonic analysis |
+| [gsw](https://www.teos-10.org/software.htm) | Trevor McDougall, Paul Barker | MATLAB, C, Fortran, Python, R, Julia, PHP, C++ | yes | yes | Seawater thermodynamics |
 
-# By instrument:
+# Instruments
 
 ## Acoustic Velocity Instruments
 
@@ -59,7 +70,7 @@ In no particular order!
 | RBR duet | oce, RSKtools | Common small boat profiling/moored/chain instrument measures some combination of P, T, C |
 | RBR concerto | oce, RSKtools | Common small boat profiling/moored/chain CTD measures P, T C and can support additional sensor modules such as dissolved oxygen |
 
-## Microstructure instruments
+## Microstructure Instruments
 
 | Instrument  | Software    | Notes  |
 |-------------|-------------|--------|
@@ -67,9 +78,7 @@ In no particular order!
 | Epsilomiter (MOD Scripps) | EPSILOMETER | |
 | Chipod | mixingsoftware | |
 
-## Echosounders & Multibeam
+## Echosounders and Multibeams
 | Instrument  | Software    | Notes  |
 |-------------|-------------|--------|
 | BIOSONICS DTX digital echosounder  | RDDTX, mixingsoftware |  |
-
-# Other sensors
