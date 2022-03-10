@@ -50,6 +50,8 @@ In no particular order!
 | [jLab](https://github.com/jonathanlilly/jLab/) | Jonathan Lilly | MATLAB | yes | yes | A vast toolbox for many types of analysis |
 | [mixingsoftware](https://github.com/OceanMixingGroup/mixingsoftware) | Ocean Mixing Group (OSU) | MATLAB | yes | some parts | A vast repository with code for many types of analysis |
 | [GarrettMunkMatlab](https://github.com/jklymak/GarrettMunkMatlab) | Jody Klymak | MATLAB | yes | no | Garrett-Munk spectra |
+| [Taylor-Goldstein](https://blogs.oregonstate.edu/salty/matlab-tools-to-solve-the-viscous-taylor-goldstein-equation-for-both-instabilities-and-waves/) | Bill Smyth, Qiang Lian | MATLAB | no | no | Taylor-Goldstein equation solver (internal wave modes) |
+| [pyTG](https://github.com/jessecusack/pytg) | Jesse Cusack | Python | yes | yes | Taylor-Goldstein equation solver (internal wave modes) copy of Bill Smyth's code |
 
 ## Other software
 
