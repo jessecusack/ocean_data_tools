@@ -71,7 +71,7 @@ In no particular order!
 | Teledyne RDI Workhorse | oce, ocean-tools, dolfyn | standard ship/lowered/mooring 4 beam ADCP 300/600/1200 kHz |
 | Teledyne RDI Long Ranger | | standard deep mooring ADCP | 
 | Teledyne RDI Sentinel V | oce | 5 beam ADCP | 
-| Nortek Signature | ocean-tools? | |
+| Nortek Signature | oce?, ocean-tools? | |
 | Nortek ADV | oce? dolfyn? | | 
 
 ## CTDs
@@ -90,8 +90,8 @@ In no particular order!
 | Instrument  | Software    | Notes  |
 |-------------|-------------|--------|
 | Rockland VMP | ODAS |  |
-| Epsilomiter (MOD Scripps) | EPSILOMETER | |
-| Chipod | mixingsoftware | |
+| Epsilomiter | EPSILOMETER | Developed by the MOD group at Scripps and used in a variety of modes |
+| Chipod | mixingsoftware | Developed by the OMG group at Oregon State and generally used on moorings |
 
 ## Echosounders and Multibeams
 | Instrument  | Software    | Notes  |
