@@ -1,6 +1,6 @@
 # Ocean Data Tools
 
-A directory of software used for reading, processing and analysing data from oceanographic sensors.
+A list of software for reading, processing and analysing oceanographic data. The focus is on software that comes in the form of a package or module for a programming language, not GUIs or executables. The list is broken down in two main ways. First, all the software packages are listed. Second, the instruments are listed along with the relevant packages. Contributions in the form of emails, issues and pull requests are more than welcome!
 
 ### Contents
 * [Software list](#software)
@@ -25,6 +25,7 @@ In no particular order!
 | [dolfyn](https://github.com/lkilcher/dolfyn) | Levi Kilcher (and others?) | Python   | yes         | yes                 | For acoustic velocity data from ADCP and ADV |
 | [RSKtools/pyRSKtools](https://bitbucket.org/rbr/) | RBR | MATLAB/Python | yes | yes | RBR's packages for reading data from their instruments |
 | [ctdproc](https://github.com/gunnarvoet/ctdproc) | Gunnar Voet | Python | yes | yes | Reading/processing Seabird 9/11 CTD hex files typical to large ship CTDs |
+| [pycurrents](https://currents.soest.hawaii.edu/ocn_data_analysis/installation.html) | Julia Hummon, Eric Firing | Python | yes | yes | Reading/processing/analysing data from a variety of instruments including ADCPs |
 | [ocean-tools](https://github.com/dswinters/ocean-tools) | Dylan Winters | MATLAB | yes | maybe | Fast reading/processing of ADCP data from TRDI & Nortek |
 | [sbemoored](https://github.com/gunnarvoet/sbemoored) | Gunnar Voet | Python | yes | yes | Reading/processing software for SBE56 and SBE37 instruments |
 | [ODAS](https://rocklandscientific.com/wpdm-category/data-processing-software/) | Rockland | MATLAB | no | unknown | Processing software for Rockland Scientific vertical microstructure profilers (VMP) |
