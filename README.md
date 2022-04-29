@@ -35,6 +35,7 @@ In no particular order!
 | [CTD_RD](https://www.eoas.ubc.ca/~rich/#CTD) | Rich Pawlowicz  | MATLAB | no | unknown | Reading/processing Seabird CTD data in .cnv format |
 | [EPSILOMETER](https://github.com/modscripps/EPSILOMETER) | Arnaud Le Boyer & Nicole Couto | MATLAB | yes | yes | Reading/processing epsilometer data |
 | [mixingsoftware](https://github.com/OceanMixingGroup/mixingsoftware) | Ocean Mixing Group (OSU) | MATLAB | yes | some parts | A vast repository with code for reading and analysing a variety of instruments | 
+| [ADCPy](https://github.com/mmartini-usgs/ADCPy) | Marinna Martini | Python | yes | maybe? | Read single ping data from RDI and Nortek ADCPs. Slow, apparently |
 
 ## Software for analysing processed data
 
