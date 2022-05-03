@@ -37,7 +37,8 @@ In no particular order!
 | [mixingsoftware](https://github.com/OceanMixingGroup/mixingsoftware) | Ocean Mixing Group (OSU) | MATLAB | yes | some parts | A vast repository with code for reading and analysing a variety of instruments | 
 | [ADCPy](https://github.com/mmartini-usgs/ADCPy) | Marinna Martini | Python | yes | maybe? | Read single ping data from RDI and Nortek ADCPs. Slow, apparently |
 | [seabird](https://github.com/castelao/seabird) | Guilherme Castelão, Luiz Irber | Python | yes | no | Read data seabird CTD data in cnv format |
-| [gadcp](https://github.com/gunnarvoet/gadcp) | Gunnar Voet, Jesse Cusack | Python | yes | yes | Process ADCP data from TRDI instruments using pycurrents | 
+| [gadcp](https://github.com/gunnarvoet/gadcp) | Gunnar Voet, Jesse Cusack | Python | yes | yes | Process ADCP data from TRDI instruments using pycurrents |
+| [python-ctd](https://github.com/pyoceans/python-ctd) | Filipe Fernandes | Python | yes | yes | Read CTD data from a few different manufacturers into pandas structures | 
 
 ## Software for analysing processed data
 
