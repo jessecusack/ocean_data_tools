@@ -37,6 +37,7 @@ In no particular order!
 | [mixingsoftware](https://github.com/OceanMixingGroup/mixingsoftware) | Ocean Mixing Group (OSU) | MATLAB | yes | some parts | A vast repository with code for reading and analysing a variety of instruments | 
 | [ADCPy](https://github.com/mmartini-usgs/ADCPy) | Marinna Martini | Python | yes | maybe? | Read single ping data from RDI and Nortek ADCPs. Slow, apparently |
 | [seabird](https://github.com/castelao/seabird) | Guilherme Castelão, Luiz Irber | Python | yes | no | Read data seabird CTD data in cnv format |
+| [gadcp](https://github.com/gunnarvoet/gadcp) | Gunnar Voet, Jesse Cusack | Python | yes | yes | Process ADCP data from TRDI instruments using pycurrents | 
 
 ## Software for analysing processed data
 
@@ -71,17 +72,17 @@ In no particular order!
 
 | Instrument  | Software    | Notes  |
 |-------------|-------------|--------|
-| Teledyne RDI Workhorse | oce, ocean-tools, dolfyn | standard ship/lowered/mooring 4 beam ADCP 300/600/1200 kHz |
-| Teledyne RDI Long Ranger | | standard deep mooring ADCP | 
-| Teledyne RDI Sentinel V | oce | 5 beam ADCP | 
-| Nortek Signature | oce?, ocean-tools? | |
-| Nortek ADV | oce? dolfyn? | | 
+| Teledyne RDI Workhorse | pycurrents, oce, ocean-tools, dolfyn | standard ship/lowered/mooring 4 beam ADCP 300/600/1200 kHz |
+| Teledyne RDI Long Ranger | pycurrents, gadcp | standard deep mooring ADCP | 
+| Teledyne RDI Sentinel V | pycurrents, oce | 5 beam ADCP | 
+| Nortek Signature | ocean-tools, ADCPy, oce? | |
+| Nortek ADV | dolfyn, oce?  | | 
 
 ## CTDs
 
 | Instrument  | Software    | Notes  |
 |-------------|-------------|--------|
-| Seabird SBE 9/11 | oce, ctdproc, mixingsoftware | Typical UNOLS ship CTD system |
+| Seabird SBE 9/11 | oce, ctdproc, mixingsoftware, seabird | Typical UNOLS ship CTD system |
 | Seabird SBE56 | oce, sbemoored | Common mooring/chain instrument measures T |
 | Seabird SBE37 | oce, sbemoored | Common mooring instrument measures P, T, C |
 | RBR solo | oce, RSKtools | Common mooring/chain instrument measures T |
