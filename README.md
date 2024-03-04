@@ -38,7 +38,10 @@ In no particular order!
 | [ADCPy](https://github.com/mmartini-usgs/ADCPy) | Marinna Martini | Python | yes | maybe? | Read single ping data from RDI and Nortek ADCPs. Slow, apparently |
 | [seabird](https://github.com/castelao/seabird) | Guilherme Castelão, Luiz Irber | Python | yes | no | Read data seabird CTD data in cnv format |
 | [gadcp](https://github.com/gunnarvoet/gadcp) | Gunnar Voet, Jesse Cusack | Python | yes | yes | Process ADCP data from TRDI instruments using pycurrents |
-| [python-ctd](https://github.com/pyoceans/python-ctd) | Filipe Fernandes | Python | yes | yes | Read CTD data from a few different manufacturers into pandas structures | 
+| [python-ctd](https://github.com/pyoceans/python-ctd) | Filipe Fernandes | Python | yes | yes | Read CTD data from a few different manufacturers into pandas structures |
+| [perturb](https://github.com/jessecusack/perturb) | Pat Welch, Jesse Cusack, Fucent Wei | MATLAB | yes | yes | Process microstructure data from Rockland instruments in parallel. Builds on ODAS. |
+| [seabirdscientific](https://github.com/Sea-BirdScientific/seabirdscientific) | Sea-Bird | Python | yes | yes | Process data from Sea-Bird instruments | 
+| [SWIFT-codes](https://github.com/SASlabgroup/SWIFT-codes) | Jim Thompson et al. | MATLAB | yes | yes | Large code base for processing observations from the Surface Wave Instrument Float with Tracking (SWIFT) platform | 
 
 ## Software for analysing processed data
 
@@ -56,7 +59,8 @@ In no particular order!
 | [mixingsoftware](https://github.com/OceanMixingGroup/mixingsoftware) | Ocean Mixing Group (OSU) | MATLAB | yes | some parts | A vast repository with code for many types of analysis |
 | [GarrettMunkMatlab](https://github.com/jklymak/GarrettMunkMatlab) | Jody Klymak | MATLAB | yes | no | Garrett-Munk spectra |
 | [Taylor-Goldstein](https://blogs.oregonstate.edu/salty/matlab-tools-to-solve-the-viscous-taylor-goldstein-equation-for-both-instabilities-and-waves/) | Bill Smyth, Qiang Lian | MATLAB | no | no | Taylor-Goldstein equation solver (internal wave modes) |
-| [pyTG](https://github.com/jessecusack/pytg) | Jesse Cusack | Python | yes | yes | Taylor-Goldstein equation solver (internal wave modes) copy of Bill Smyth's code |
+| [pyTG](https://github.com/jessecusack/pytg) | Jesse Cusack | Python | yes | yes | Taylor-Goldstein equation solver. Python copy of Bill Smyth's MATLAB code |
+| [COARE-algorithm](https://github.com/NOAA-PSL/COARE-algorithm) | | Fortran, Python, MATLAB | yes | maybe? | Bulk air-sea flux algorithms |
 
 ## Other software
 
@@ -83,9 +87,9 @@ In no particular order!
 
 | Instrument  | Software    | Notes  |
 |-------------|-------------|--------|
-| Seabird SBE 9/11 | oce, ctdproc, mixingsoftware, seabird | Typical UNOLS ship CTD system |
-| Seabird SBE56 | oce, sbemoored | Common mooring/chain instrument measures T |
-| Seabird SBE37 | oce, sbemoored | Common mooring instrument measures P, T, C |
+| Seabird SBE 9/11 | oce, ctdproc, mixingsoftware, seabird, seabirdscientific | Typical UNOLS ship CTD system |
+| Seabird SBE56 | oce, sbemoored, seabirdscientific | Common mooring/chain instrument measures T |
+| Seabird SBE37 | oce, sbemoored, seabirdscientific | Common mooring instrument measures P, T, C |
 | RBR solo | oce, RSKtools | Common mooring/chain instrument measures T |
 | RBR duet | oce, RSKtools | Common small boat profiling/moored/chain instrument measures some combination of P, T, C |
 | RBR concerto | oce, RSKtools | Common small boat profiling/moored/chain CTD measures P, T C and can support additional sensor modules such as dissolved oxygen |
@@ -94,7 +98,7 @@ In no particular order!
 
 | Instrument  | Software    | Notes  |
 |-------------|-------------|--------|
-| Rockland VMP | ODAS |  |
+| Rockland VMP | ODAS perturb |  |
 | Epsilomiter | EPSILOMETER | Developed by the MOD group at Scripps and used in a variety of modes |
 | Chipod | mixingsoftware | Developed by the OMG group at Oregon State and generally used on moorings |
 
