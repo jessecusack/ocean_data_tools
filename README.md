@@ -12,14 +12,15 @@ A list of software for reading, processing and analysing oceanographic data. The
   * [CTDs](#ctds)
   * [Microstructure instruments](#microstructure-instruments)
   * [Echosounders and multibeams](#echosounders-and-multibeams)
+  * [Gliders](#gliders)
 
 # Software
 
 ## Software for reading and processing raw data
 
-In no particular order!
+In no particular order.
 
-| Package | Main devs | Language | Open-source | Actively developed? | Notes | 
+| Package | Main devs | Language | Open-source? | Actively developed? | Notes | 
 |---------|-----------|----------|-------------|---------------------|-------|
 | [oce](https://github.com/dankelley/oce) | Dan Kelly, Clark Richards | R        | yes         | yes                 | Can processes raw data from *many* different instruments and manufacturers |
 | [dolfyn](https://github.com/lkilcher/dolfyn) | Levi Kilcher (and others?) | Python   | yes         | yes                 | For acoustic velocity data from ADCP and ADV |
@@ -41,7 +42,10 @@ In no particular order!
 | [python-ctd](https://github.com/pyoceans/python-ctd) | Filipe Fernandes | Python | yes | yes | Read CTD data from a few different manufacturers into pandas structures |
 | [perturb](https://github.com/jessecusack/perturb) | Pat Welch, Jesse Cusack, Fucent Wei | MATLAB | yes | yes | Process microstructure data from Rockland instruments in parallel. Builds on ODAS. |
 | [seabirdscientific](https://github.com/Sea-BirdScientific/seabirdscientific) | Sea-Bird | Python | yes | yes | Process data from Sea-Bird instruments | 
-| [SWIFT-codes](https://github.com/SASlabgroup/SWIFT-codes) | Jim Thompson et al. | MATLAB | yes | yes | Large code base for processing observations from the Surface Wave Instrument Float with Tracking (SWIFT) platform | 
+| [SWIFT-codes](https://github.com/SASlabgroup/SWIFT-codes) | Jim Thompson et al. | MATLAB | yes | yes | Large code base for processing observations from the Surface Wave Instrument Float with Tracking (SWIFT) platform |
+| [dbdreader](https://github.com/smerckel/dbdreader) | Lukas Merckelbach | C/Python | yes | yes | Read Slocum glider binary files |
+| [dbd2netcdf](https://github.com/mousebrains/dbd2netcdf) | Pat Welch | C | yes | yes | Read Slocum glider binary files and convert to netCDF/csv |
+| [pyglider](https://github.com/c-proof/pyglider) | Jody Klymak et al. | python | yes | yes | Processes and grids Slocum data. Builds on dbdreader. |
 
 ## Software for analysing processed data
 
@@ -106,3 +110,9 @@ In no particular order!
 | Instrument  | Software    | Notes  |
 |-------------|-------------|--------|
 | BIOSONICS DTX digital echosounder  | RDDTX, mixingsoftware |  |
+
+## Gliders
+
+| Instrument  | Software    | Notes  |
+|-------------|-------------|--------|
+| Slocum glider | dbd2netcdf, dbdreader, pyglider |  |
