@@ -46,6 +46,8 @@ In no particular order.
 | [dbdreader](https://github.com/smerckel/dbdreader) | Lukas Merckelbach | C/Python | yes | yes | Read Slocum glider binary files |
 | [dbd2netcdf](https://github.com/mousebrains/dbd2netcdf) | Pat Welch | C | yes | yes | Read Slocum glider binary files and convert to netCDF/csv |
 | [pyglider](https://github.com/c-proof/pyglider) | Jody Klymak et al. | python | yes | yes | Processes and grids Slocum data. Builds on dbdreader. |
+| [GliderTools](https://github.com/GliderToolsCommunity/GliderTools) | Glider Tools community | python | yes | yes | A toolkit for processing Seaglider base station NetCDF files: despiking, smoothing, outlier detection, backscatter, fluorescence quenching, calibration, gridding, interpolation. |
+| [glide](https://github.com/OSUGliders/glide) | Jesse Cusack, OSU Glider Research Group | python | yes | yes | Processing and quality control of Slocum glider data. Builds on dbd2netcdf. |
 
 ## Software for analysing processed data
 
@@ -115,4 +117,5 @@ In no particular order.
 
 | Instrument  | Software    | Notes  |
 |-------------|-------------|--------|
-| Slocum glider | dbd2netcdf, dbdreader, pyglider |  |
+| Slocum glider | dbd2netcdf, dbdreader, pyglider, glide |  |
+| Seaglider | GliderTools |  | 
