@@ -48,6 +48,7 @@ In no particular order.
 | [pyglider](https://github.com/c-proof/pyglider) | Jody Klymak et al. | python | yes | yes | Processes and grids Slocum data. Builds on dbdreader. |
 | [GliderTools](https://github.com/GliderToolsCommunity/GliderTools) | Glider Tools community | python | yes | yes | A toolkit for processing Seaglider base station NetCDF files: despiking, smoothing, outlier detection, backscatter, fluorescence quenching, calibration, gridding, interpolation. |
 | [glide](https://github.com/OSUGliders/glide) | Jesse Cusack, OSU Glider Research Group | python | yes | yes | Processing and quality control of Slocum glider data. Builds on dbd2netcdf. |
+| [echopype](https://github.com/OSOceanAcoustics/echopype) | Lee et al. https://doi.org/10.1093/icesjms/fsae133 | python | yes | yes | Read and process data from several sonar manufacturers including Kongsberg Simrad, ASL Environmental Sciences, and Nortek  |
 
 ## Software for analysing processed data
 
