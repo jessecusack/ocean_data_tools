@@ -27,7 +27,7 @@ In no particular order.
 | [RSKtools/pyRSKtools](https://bitbucket.org/rbr/) | RBR | MATLAB/Python | yes | yes | RBR's packages for reading data from their instruments |
 | [ctdproc](https://github.com/gunnarvoet/ctdproc) | Gunnar Voet | Python | yes | yes | Reading/processing Seabird 9/11 CTD hex files typical to large ship CTDs |
 | [pycurrents](https://currents.soest.hawaii.edu/ocn_data_analysis/installation.html) | Julia Hummon, Eric Firing | Python | yes | yes | Reading/processing/analysing data from a variety of instruments including ADCPs |
-| [ocean-tools](https://github.com/dswinters/ocean-tools) | Dylan Winters | MATLAB | yes | maybe | Fast reading/processing of ADCP data from TRDI & Nortek |
+| [ocean-tools](https://github.com/dswinters/ocean-tools) | Dylan Winters | MATLAB | yes | no | Fast reading/processing of ADCP data from TRDI & Nortek |
 | [sbemoored](https://github.com/gunnarvoet/sbemoored) | Gunnar Voet | Python | yes | yes | Reading/processing software for SBE56 and SBE37 instruments |
 | [ODAS](https://rocklandscientific.com/wpdm-category/data-processing-software/) | Rockland | MATLAB | no | unknown | Processing software for Rockland Scientific vertical microstructure profilers (VMP) |
 | [LADCP software](https://www.ldeo.columbia.edu/~ant/LADCP.html) | Andreas Thurnherr | Perl/MATLAB? | no | unknown | Proessing of lowered ADCP data |
