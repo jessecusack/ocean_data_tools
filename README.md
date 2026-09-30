@@ -30,7 +30,7 @@ In no particular order.
 | [ocean-tools](https://github.com/dswinters/ocean-tools) | Dylan Winters | MATLAB | yes | no | Fast reading/processing of ADCP data from TRDI & Nortek |
 | [sbemoored](https://github.com/gunnarvoet/sbemoored) | Gunnar Voet | Python | yes | yes | Reading/processing software for SBE56 and SBE37 instruments |
 | [ODAS](https://rocklandscientific.com/wpdm-category/data-processing-software/) | Rockland | MATLAB | no | unknown | Processing software for Rockland Scientific vertical microstructure profilers (VMP) |
-| [LADCP software](https://www.ldeo.columbia.edu/~ant/LADCP.html) | Andreas Thurnherr | Perl/MATLAB? | no | unknown | Proessing of lowered ADCP data |
+| [LADCP software](https://www.ldeo.columbia.edu/~ant/LADCP.html) | Andreas Thurnherr | MATLAB | yes | yes | Proessing of lowered ADCP data |
 | [RADCP](https://www.eoas.ubc.ca/~rich/#RDADCP) | Rich Pawlowicz  | MATLAB | no | unknown | Reading/processing ADCP data from TRDI instruments |
 | [RDDTX](https://www.eoas.ubc.ca/~rich/#RDDTX) | Rich Pawlowicz  | MATLAB | no | unknown | Reading/processing single beam echosounder in .dt4 format |
 | [CTD_RD](https://www.eoas.ubc.ca/~rich/#CTD) | Rich Pawlowicz  | MATLAB | no | unknown | Reading/processing Seabird CTD data in .cnv format |
